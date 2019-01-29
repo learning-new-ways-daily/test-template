@@ -1,0 +1,3 @@
+templates1: &template-deploy-data
+  - source /setup_job.sh
+  - ${JOB_SCRIPTS}/pipeline-test/mark-deployment.sh "test3-my-svc-deploy" "test3-my-svc-image" "my-svc-test3"
